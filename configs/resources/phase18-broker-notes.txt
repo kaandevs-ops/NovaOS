@@ -1,0 +1,1 @@
+NovaOS Phase-18 Step-4: trusted second read-only resource, selected by numeric identity.

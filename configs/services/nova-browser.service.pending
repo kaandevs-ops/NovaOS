@@ -1,0 +1,15 @@
+# Installed only by explicit R47 browser build mode after runtime validation.
+name=nova-browser
+exec=/System/Apps/nova-browser-session
+restart=never
+critical=no
+enabled=yes
+kind=application
+display_name=Firefox
+category=productivity
+description=Firefox web browser in private compatibility runtime
+capabilities=ui.surface,input.text,input.tab-capture
+sandbox=browser-compat-v1
+app_id=nova.browser
+client_id=4
+autostart=no

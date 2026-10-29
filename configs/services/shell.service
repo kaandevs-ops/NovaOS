@@ -1,0 +1,5 @@
+name=shell
+exec=/System/Core/nova-shell
+restart=always
+critical=no
+enabled=yes

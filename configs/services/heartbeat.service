@@ -1,0 +1,5 @@
+name=heartbeat
+exec=/System/Core/nova-heartbeat
+restart=always
+critical=no
+enabled=yes

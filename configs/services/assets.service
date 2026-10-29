@@ -1,0 +1,5 @@
+name=assets
+exec=/System/Core/nova-assets
+restart=always
+critical=no
+enabled=yes

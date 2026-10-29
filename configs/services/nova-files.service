@@ -1,0 +1,15 @@
+name=nova-files
+exec=/System/Apps/nova-files
+restart=never
+critical=no
+enabled=yes
+kind=application
+display_name=Nova Files
+category=utility
+description=Read-only shared user workspace browser
+capabilities=ui.surface,input.text
+sandbox=files-private-read-v1
+directory_scope=user-home-read-only
+app_id=nova.files
+client_id=3
+autostart=no

@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "source": "local-system-catalog",
+  "packages": [
+    {
+      "id": "sqlite",
+      "version": "3.54.1",
+      "command": "sqlite3",
+      "title": "SQLite",
+      "summary": "Local SQL database and command-line tools",
+      "category": "development"
+    },
+    {
+      "id": "lua",
+      "version": "5.4.9",
+      "command": "lua",
+      "title": "Lua",
+      "summary": "Run Lua scripts inside the user sandbox",
+      "category": "development"
+    },
+    {
+      "id": "lua-dynamic",
+      "version": "5.4.9",
+      "command": "lua-dynamic",
+      "title": "Lua dynamic runtime",
+      "summary": "Existing isolated dynamic Lua runtime",
+      "category": "development"
+    },
+    {
+      "id": "2048",
+      "version": "1.0.3",
+      "command": "2048",
+      "title": "2048",
+      "summary": "Real offline terminal puzzle; arrow keys, q then y to quit",
+      "category": "games"
+    }
+  ]
+}

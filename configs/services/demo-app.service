@@ -1,0 +1,15 @@
+name=demo-app
+exec=/System/Apps/nova-demo-app
+restart=always
+critical=no
+enabled=yes
+kind=application
+display_name=Nova Demo A
+category=development
+description=NovaOS development application for UI and lifecycle validation
+capabilities=ui.surface,input.text,input.tab-capture,clipboard.read,clipboard.write
+sandbox=desktop-v1
+icon_asset_id=nova.icon.demo.a
+app_id=nova.demo.a
+client_id=1
+autostart=no

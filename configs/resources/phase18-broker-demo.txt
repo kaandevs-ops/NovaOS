@@ -1,0 +1,1 @@
+NovaOS Phase-18 Step-2: broker-mediated read-only resource.

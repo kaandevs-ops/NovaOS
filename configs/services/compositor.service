@@ -1,0 +1,5 @@
+name=compositor
+exec=/System/Core/nova-compositor
+restart=always
+critical=no
+enabled=yes

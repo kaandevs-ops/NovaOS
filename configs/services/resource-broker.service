@@ -1,0 +1,5 @@
+name=resource-broker
+exec=/System/Core/nova-resource-broker
+restart=always
+critical=no
+enabled=yes
