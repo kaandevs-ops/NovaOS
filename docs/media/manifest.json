@@ -1,0 +1,42 @@
+{
+  "01-desktop.HOST-NOT-VM.png": {
+    "sha256": "3a24236b639996fc4df9370593213ccbd1a1e4fea1740c5c86879035378ba45e",
+    "bytes": 31259
+  },
+  "02-applications.HOST-NOT-VM.png": {
+    "sha256": "4974c41dcd0259a88677e94301000ed18a2745a6ab6becad740497f51e870ffb",
+    "bytes": 38020
+  },
+  "03-appearance.HOST-NOT-VM.png": {
+    "sha256": "66855aab21ad32c1ed0ba2844263d7d9c6b103210192b3dc31080373fd67e4b1",
+    "bytes": 55852
+  },
+  "04-calm-light.HOST-NOT-VM.png": {
+    "sha256": "1ce45efd98572e1232991ccc649d62e7ecdf00fd846a3a84e2cb99da20c02d2a",
+    "bytes": 56498
+  },
+  "05-graphite.HOST-NOT-VM.png": {
+    "sha256": "0854d00cd522682ee1714421885f93c7a32aa8bf1d51b09fa07c6dbd3cd0b57f",
+    "bytes": 55512
+  },
+  "06-quick-settings.HOST-NOT-VM.png": {
+    "sha256": "03746de1c8c7c979b2c1ac08b747638cbab6f98df949156c5fa2264992d26bb9",
+    "bytes": 45782
+  },
+  "07-software-no-peer.HOST-NOT-VM.png": {
+    "sha256": "7f23e0c68116cbdbd990a8a0e214a243ac7e89f1a78c10a51c622c19f88a470f",
+    "bytes": 55482
+  },
+  "native-renderer-walkthrough.HOST-NOT-VM.mp4": {
+    "sha256": "37e8167814a83c31c23c22d7b686879072eed3b265fd8f350a27079d26fb21e9",
+    "bytes": 179857
+  },
+  "native-renderer-preview.HOST-NOT-VM.gif": {
+    "sha256": "ea313d0439684570230e8b6ca1c11d868591675ef5be585ee8a54b9ee0bd1d80",
+    "bytes": 113053
+  },
+  "banner.png": {
+    "sha256": "b16cdf22c8e397a04b8747dbc078663eb31ebe14d6b27c49714994b544c177e3",
+    "bytes": 1491100
+  }
+}
