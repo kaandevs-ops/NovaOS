@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+export PYTHONDONTWRITEBYTECODE=1
+"$ROOT/tests/run-stage5a-phase6-package-suite.sh"
+"$ROOT/tests/stage5a-phase7-toplevel-uapi-source.sh"
+"$ROOT/tests/stage5a-phase7-demo-app-source.sh"
+"$ROOT/tests/stage5a-phase7-compositor-source.sh"
+"$ROOT/tests/stage5a-phase7-acceptance-source.sh"
+"$ROOT/tests/package-hygiene.sh" "$ROOT"
+echo 'Stage-5A Phase-7 reopened-package critical source suite: PASS'

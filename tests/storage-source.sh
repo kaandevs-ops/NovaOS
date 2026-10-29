@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+SRC="$ROOT/src/init/main.c"
+SYS="$ROOT/src/runtime/nova_syscall.h"
+CFG="$ROOT/configs/kernel/common.config"
+grep -Fq '#define NOVA_SYSTEM_A_DEV "/dev/vda2"' "$SRC"
+grep -Fq '#define NOVA_SYSTEM_B_DEV "/dev/vda3"' "$SRC"
+grep -Fq '#define NOVA_RECOVERY_DEV "/dev/vda4"' "$SRC"
+grep -Fq '#define NOVA_DATA_DEV "/dev/vda5"' "$SRC"
+grep -Fq 'nova_fsync' "$SYS"
+grep -Fq 'nova_rename' "$SYS"
+grep -Fq 'Metadata trust: UNAUTHENTICATED (Stage-3A foundation)' "$SRC"
+grep -Fq 'CONFIG_EXT4_FS=y' "$CFG"
+grep -Fq 'CONFIG_VIRTIO_BLK=y' "$CFG"
+grep -Fq 'CONFIG_EFI_PARTITION=y' "$CFG"
+echo "Stage-3A storage source policy test passed."

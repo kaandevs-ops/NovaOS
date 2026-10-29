@@ -1,0 +1,14 @@
+name=phase18-resource-probe-deny
+exec=/System/Apps/nova-resource-probe-deny
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Phase18 Resource Probe deny
+category=development
+description=Phase18 resource broker deny probe
+capabilities=none
+sandbox=desktop-v1
+app_id=nova.resource.probe.deny
+client_id=6
+autostart=no

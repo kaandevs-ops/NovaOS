@@ -1,0 +1,14 @@
+name=phase16-security-probe-read
+exec=/System/Apps/nova-security-probe-read
+restart=always
+critical=no
+enabled=yes
+kind=application
+display_name=Security Read Probe
+category=system
+description=Phase16 authenticated read-only capability acceptance probe
+capabilities=ui.surface,clipboard.read
+sandbox=desktop-v1
+app_id=nova.security.probe.read
+client_id=3
+autostart=no

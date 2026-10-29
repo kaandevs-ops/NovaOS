@@ -1,0 +1,14 @@
+name=phase18-step6-session-stress
+exec=/System/Apps/nova-step6-session-stress
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Phase18 Step6 session stress
+category=development
+description=Acceptance-only broker session capacity and reuse probe
+capabilities=none
+sandbox=desktop-v1
+app_id=nova.resource.probe.stress
+client_id=11
+autostart=no

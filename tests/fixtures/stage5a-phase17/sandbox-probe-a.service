@@ -1,0 +1,14 @@
+name=phase17-sandbox-probe-a
+exec=/System/Apps/nova-sandbox-probe-a
+restart=always
+critical=no
+enabled=yes
+kind=application
+display_name=Sandbox Probe A
+category=system
+description=Phase17 private filesystem and seccomp acceptance probe A
+capabilities=ui.surface
+sandbox=desktop-v1
+app_id=nova.sandbox.probe.a
+client_id=3
+autostart=no

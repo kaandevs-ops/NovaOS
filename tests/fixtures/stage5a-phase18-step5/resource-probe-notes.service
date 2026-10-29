@@ -1,0 +1,14 @@
+name=phase18-resource-probe-notes
+exec=/System/Apps/nova-resource-probe-notes
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Phase18 Step5 notes probe
+category=development
+description=Acceptance-only independent resource-capability probe
+capabilities=resource.notes.read
+sandbox=desktop-v1
+app_id=nova.resource.probe.notes
+client_id=8
+autostart=no

@@ -1,0 +1,14 @@
+name=phase18-resource-probe-grant
+exec=/System/Apps/nova-resource-probe-grant
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Phase18 Resource Probe grant
+category=development
+description=Phase18 resource broker grant probe
+capabilities=resource.demo.read
+sandbox=desktop-v1
+app_id=nova.resource.probe.grant
+client_id=5
+autostart=no

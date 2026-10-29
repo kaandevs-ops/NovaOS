@@ -1,0 +1,14 @@
+name=phase16-security-probe-write
+exec=/System/Apps/nova-security-probe-write
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Security Write Probe
+category=system
+description=Phase16 authenticated write-only capability acceptance probe
+capabilities=ui.surface,clipboard.write
+sandbox=desktop-v1
+app_id=nova.security.probe.write
+client_id=5
+autostart=no

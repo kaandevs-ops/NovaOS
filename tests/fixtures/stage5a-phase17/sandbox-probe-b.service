@@ -1,0 +1,14 @@
+name=phase17-sandbox-probe-b
+exec=/System/Apps/nova-sandbox-probe-b
+restart=always
+critical=no
+enabled=yes
+kind=application
+display_name=Sandbox Probe B
+category=system
+description=Phase17 independent private tmp and IPC acceptance probe B
+capabilities=ui.surface
+sandbox=desktop-v1
+app_id=nova.sandbox.probe.b
+client_id=4
+autostart=no

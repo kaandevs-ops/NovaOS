@@ -1,0 +1,7 @@
+name=phase16-security-probe-foreign
+exec=/System/Apps/nova-security-probe-unregistered
+restart=no
+critical=no
+enabled=yes
+autostart=no
+kind=service

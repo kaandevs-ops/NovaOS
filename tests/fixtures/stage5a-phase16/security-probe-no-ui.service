@@ -1,0 +1,14 @@
+name=phase16-security-probe-no-ui
+exec=/System/Apps/nova-security-probe-no-ui
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Security No UI Probe
+category=system
+description=Phase16 missing ui surface acceptance probe
+capabilities=clipboard.read
+sandbox=desktop-v1
+app_id=nova.security.probe.no-ui
+client_id=4
+autostart=no

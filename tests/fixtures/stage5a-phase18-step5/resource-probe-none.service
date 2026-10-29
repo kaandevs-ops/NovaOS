@@ -1,0 +1,14 @@
+name=phase18-resource-probe-none
+exec=/System/Apps/nova-resource-probe-none
+restart=no
+critical=no
+enabled=yes
+kind=application
+display_name=Phase18 Step5 none probe
+category=development
+description=Acceptance-only independent resource-capability probe
+capabilities=none
+sandbox=desktop-v1
+app_id=nova.resource.probe.none
+client_id=10
+autostart=no

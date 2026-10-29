@@ -1,0 +1,8 @@
+#define _GNU_SOURCE
+#include <assert.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/wait.h>
+#include <grp.h>
+#include "nova_read_model.h"
+int main(void){char home[]="/tmp/nova-r50-read-XXXXXX";assert(mkdtemp(home));assert(!chmod(home,0700));assert(!chown(home,12004,12004));pid_t pid=fork();assert(pid>=0);if(!pid){assert(!setgroups(0,0)&&!setgid(12004)&&!setuid(12004));assert(!chdir(home));assert(!mkdir("Demo",0700));int f=open("Demo/Türkçe belge.txt",O_CREAT|O_EXCL|O_WRONLY,0600);assert(f>=0&&write(f,"REAL\n",5)==5&&!close(f));assert(!symlink("/etc","escape"));assert(!symlink("/etc/passwd","Demo/link"));int root=open(home,O_RDONLY|O_DIRECTORY);assert(root>=0);struct nova_read_model*d=calloc(1,sizeof *d);assert(d);assert(!nova_read_path(root,home,"Demo/Türkçe belge.txt",d)&&d->length==5);char absolute[1024];snprintf(absolute,sizeof absolute,"%s/Demo/Türkçe belge.txt",home);assert(!nova_read_path(root,home,absolute,d));assert(!chdir("Demo"));assert(!nova_read_path(root,home,"Türkçe belge.txt",d));assert(nova_read_path(root,home,"../Demo/Türkçe belge.txt",d)<0);assert(nova_read_path(root,home,"/etc/passwd",d)<0);assert(nova_read_path(root,home,"link",d)<0);assert(!chdir(home));assert(nova_read_path(root,home,"escape/passwd",d)<0);assert(!chmod("Demo/Türkçe belge.txt",0000));assert(nova_read_path(root,home,"Demo/Türkçe belge.txt",d)<0&&errno==EACCES);assert(!chmod("Demo/Türkçe belge.txt",0600));assert(!mkfifo("Demo/pipe",0600));assert(nova_read_path(root,home,"Demo/pipe",d)<0);free(d);close(root);_exit(0);}int status;assert(waitpid(pid,&status,0)==pid&&WIFEXITED(status)&&!WEXITSTATUS(status));puts("PASS real UID12004 relative/absolute UTF8 read, symlink/escape/FIFO/permission rejection");return 0;}
