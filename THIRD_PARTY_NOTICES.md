@@ -1,5 +1,7 @@
 # Third-party materials
 
+- Author banner: reused unchanged from kaandevs-ops/kaandevs-ops (also unity_multiplayer), at the author's request; see docs/MEDIA.md.
+
 - Inter: assets/fonts/INTER_LICENSE.txt (SIL OFL).
 - DejaVu Sans Mono: assets/fonts/terminal/COPYRIGHT-DejaVu.txt.
 - BusyBox 1.37.0 source archives: GPL-2.0; upstream LICENSE/COPYING in archive. No compiled distribution here.

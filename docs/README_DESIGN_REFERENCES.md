@@ -8,4 +8,4 @@ Reviewed on 29 October 2026. Structure was adapted; claims and artwork were not 
 - [SerenityOS](https://github.com/SerenityOS/serenity): OS identity and documentation entry points.
 - [Theseus](https://github.com/theseus-os/Theseus): platform prerequisites and build/run guidance.
 
-The NovaOS banner is original SVG identity artwork, not an operating-system screenshot. No other project's logo, screenshot or banner is copied.
+The current banner is the author's existing profile/Unity banner, reused unchanged at the author's request. It is branding, not an OS screenshot. See MEDIA.md for its origin and the native gallery's separate capture method.
