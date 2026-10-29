@@ -39,6 +39,20 @@ The video is an edited sequence of seven native still frames, held for readabili
 
 ## Feature guide
 
+| Capability | Implemented scope |
+| --- | --- |
+| **Windows and input** | Focus/z-order, move/resize, minimize/maximize/restore, close/reopen paths and supported keyboard switching |
+| **Desktop workspace** | Folder opening, bounded text preview, context menu, selection, workspace trash/restore and collision handling |
+| **Nova Files** | Scoped read-only browsing, back/forward history, breadcrumbs, filtering, name/type/size sorting and available metadata |
+| **Terminal** | Real session/child-process integration, working-directory/argument support, Turkish-Q Shift/Caps/AltGr and quoted path insertion |
+| **Appearance** | Calm Light, Graphite Pro and Adaptive; shared UI tokens; shell Settings and Quick Settings; session theme events |
+| **Utilities** | Calendar, clock and confirmation-based normal-power-off interfaces |
+| **Local applications** | SQLite, Lua, dynamic Lua and terminal 2048 catalog; install/open/status/remove paths and installed-app dock integration |
+| **Internet packages** | Repository client, policy/verification, bounded transfers and publisher/staging tools; no maintained public store endpoint |
+| **Browser / documents** | External Linux browser/X compatibility, document/PDF sources and isolated MuPDF worker; runtime binaries not bundled |
+| **Platform** | `novad`, manifests/principals, per-app sandbox/limits, memfd/SCM_RIGHTS/surface validation, network and storage/recovery integration |
+| **Diagnostics** | Overview/graphics data paths, CPU render metrics and explicit unavailable states; no inferred guest FPS |
+
 Window management, desktop file operations, Files navigation/metadata, terminal processes/input, themes, clock/calendar, application/package lifecycle, browser/PDF compatibility, network, storage, diagnostics and security are documented in the [complete feature/source/status inventory](docs/FEATURES.md). It includes keyboard entry points, the actual local app catalog and unsupported areas. Source implementation is distinguished from host tests and guest acceptance.
 
 ## Bootable VM availability

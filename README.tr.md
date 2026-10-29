@@ -32,6 +32,20 @@ Video, okunabilirlik için bekletilen yedi gerçek renderer karesinden oluşan b
 
 ## Ayrıntılı özellik rehberi
 
+| Yetenek | Kaynaklarda uygulanan kapsam |
+| --- | --- |
+| **Pencereler ve giriş** | Odak/katman, taşıma/boyutlandırma, küçültme/büyütme/geri getirme, kapat/yeniden aç ve desteklenen klavye geçişleri |
+| **Masaüstü** | Klasör açma, sınırlı metin önizleme, sağ tık menüsü, seçim, kontrollü çöp kutusu/geri yükleme ve çakışma hataları |
+| **Nova Files** | Salt okunur dizin yetkisi, geri/ileri geçmişi, breadcrumb, filtre, ad/tür/boyut sıralaması ve mevcut metadata |
+| **Terminal** | Gerçek oturum/alt süreçler, çalışma dizini/argümanlar, Türkçe-Q Shift/Caps/AltGr ve tırnaklanmış yol ekleme |
+| **Görünüm** | Calm Light, Graphite Pro, Adaptive; ortak UI; Settings/Quick Settings ve oturum tema olayları |
+| **Araçlar** | Takvim, saat ve onaylı normal kapatma arayüzleri |
+| **Yerel uygulamalar** | SQLite, Lua, dynamic Lua, terminal 2048 kataloğu; kur/aç/durum/kaldır ve kurulu uygulama dock entegrasyonu |
+| **İnternet paketleri** | Depo istemcisi, politika/doğrulama, sınırlı aktarım ve yayın araçları; genel public mağaza adresi henüz yok |
+| **Tarayıcı / belgeler** | Harici Linux tarayıcısı/X uyumluluğu, belge/PDF ve izole MuPDF worker kaynakları; runtime binary'leri dahil değil |
+| **Sistem** | `novad`, manifest/principal, uygulama sandbox/limitleri, memfd/SCM_RIGHTS/surface denetimi, ağ ve depolama/kurtarma |
+| **Tanılama** | Overview/Graphics veri yolları, CPU çizim ölçümleri ve açık unavailable durumları; guest FPS çıkarımı yapılmaz |
+
 Pencere/masaüstü işlemleri, Files, terminal, tema/ayarlar, saat/takvim, uygulama ve paket yönetimi, tarayıcı/PDF, ağ, depolama ve güvenlik: [özellikler, kaynak yolları, kısayollar ve kabul sınırları](docs/FEATURES.md). Kaynağın bulunması yeni public guest kabulünün geçtiği anlamına gelmez.
 
 ## Açılabilir VM indirilebilir mi?
