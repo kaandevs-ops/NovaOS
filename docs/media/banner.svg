@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+<title id="title">NovaOS — a native desktop, built on Linux</title>
+<desc id="desc">Original project identity artwork with an abstract orbit and green diamond. This is not a desktop screenshot.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1d22"/><stop offset="1" stop-color="#152f32"/></linearGradient>
+ <linearGradient id="mark" x2="1" y2="1"><stop stop-color="#bdf0cc"/><stop offset="1" stop-color="#61c4b9"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#44877c" stop-opacity=".35"/><stop offset="1" stop-color="#44877c" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="520" rx="24" fill="url(#bg)"/>
+<circle cx="1260" cy="250" r="320" fill="url(#glow)"/>
+<g fill="none" stroke="#aad4c8" stroke-opacity=".14"><ellipse cx="1260" cy="260" rx="280" ry="148" transform="rotate(-32 1260 260)"/><ellipse cx="1260" cy="260" rx="218" ry="218"/><ellipse cx="1260" cy="260" rx="148" ry="280" transform="rotate(-32 1260 260)"/></g>
+<path d="M1260 155 1352 260 1260 365 1168 260Z" fill="none" stroke="url(#mark)" stroke-width="5"/>
+<path d="m1260 220 35 40-35 40-35-40Z" fill="url(#mark)"/>
+<circle cx="1447" cy="141" r="7" fill="#bdf0cc"/>
+<text x="104" y="110" fill="#9cd5c2" font-size="17" font-family="Inter,Segoe UI,sans-serif" letter-spacing="5">NATIVE DESKTOP · OPEN ENGINEERING</text>
+<text x="96" y="256" fill="#f0f8f4" font-size="116" font-weight="650" font-family="Inter,Segoe UI,sans-serif" letter-spacing="-5">NovaOS</text>
+<text x="104" y="324" fill="#c5d8d2" font-size="31" font-family="Inter,Segoe UI,sans-serif">A native desktop. A Linux foundation.</text>
+<path d="M104 374h610" stroke="#83ad9f" stroke-opacity=".35"/>
+<text x="104" y="421" fill="#94b1a7" font-size="19" font-family="Inter,Segoe UI,sans-serif">C USERSPACE / OWN SHELL / SCOPED APPLICATIONS</text>
+<text x="1494" y="472" fill="#8ba99e" font-size="14" font-family="Inter,Segoe UI,sans-serif" text-anchor="end">EXPERIMENTAL SOURCE SNAPSHOT</text>
+</svg>
