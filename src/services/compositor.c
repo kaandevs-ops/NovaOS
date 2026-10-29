@@ -332,7 +332,8 @@ static int r5_delta_to_logical(int physical,int *remainder) {
     return out;
 }
 
-static struct nova_render_state g_render;
+/* Public source default: original procedural background, no unverified photo. */
+static struct nova_render_state g_render = {.theme = 1U};
 static struct nova_scanout_buffer *g_r24_capture;
 static unsigned long g_r24_cursor_generation;
 static struct nova_render_metrics g_metrics;
