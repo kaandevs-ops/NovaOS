@@ -1,10 +1,42 @@
-<p align="center"><img src="docs/media/banner.svg" alt="NovaOS: Linux temeli üzerinde özgün native masaüstü" width="100%"></p>
+<p align="center"><img src="docs/media/banner.png" alt="Kaan Tekin — AI, Robotics and Autonomous Systems" width="100%"></p>
+
+<h1 align="center">NovaOS</h1>
 
 <p align="center"><strong>Linux çekirdeği üzerinde özgün masaüstü ve kullanıcı alanı projesi.</strong><br>Native C compositor · kendi shell ve servis yönetimi · sınırlandırılmış uygulama entegrasyonu</p>
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/ARCHITECTURE.md">Mimari</a> · <a href="docs/BUILDING.md">Derleme</a> · <a href="docs/ROADMAP.md">Yol haritası</a></p>
 
-> **Bu depo temizlenmiş bir geliştirme kaynak yayınıdır.** Açılabilir VM paketi veya üretime hazır işletim sistemi değildir. Üstteki banner özgün kimlik çizimidir; ekran görüntüsü değildir. Linux çekirdeği ve sisteme entegre edilen üçüncü taraf yazılımlar NovaOS tarafından sıfırdan yazılmadı.
+> **Bu depo temizlenmiş bir geliştirme kaynak yayınıdır.** Açılabilir VM paketi veya üretime hazır işletim sistemi değildir. Banner profilimde ve Unity repomda kullandığım mevcut dosyadır. Linux ve üçüncü taraf yazılımlar NovaOS tarafından sıfırdan yazılmadı.
+
+## Görseller ve video
+
+Bunlar bu deponun **gerçek native C CPU renderer'ından**, Linux host üzerinde 1600 × 900 çözünürlükte üretilmiştir. Mevcut özgün Graphite wave arka planı kullanılır. VirtualBox görüntüsü veya HTML maketi değildir. Bu host galerisinde bağlı uygulama süreci yoktur; Software ekranı uydurma kurulum sonucu yerine bekleme durumunu gösterir.
+
+[![Native renderer: yedi kareden oluşan dizi](docs/media/native-renderer-preview.HOST-NOT-VM.gif)](docs/media/native-renderer-walkthrough.HOST-NOT-VM.mp4)
+
+**[21 saniyelik renderer videosunu izle/indir](docs/media/native-renderer-walkthrough.HOST-NOT-VM.mp4)** · [Hareketli önizleme](docs/media/native-renderer-preview.HOST-NOT-VM.gif) · [Üretim yöntemi ve hash'ler](docs/MEDIA.md)
+
+Video, okunabilirlik için bekletilen yedi gerçek renderer karesinden oluşan bir dizidir. Kesintisiz kullanıcı kaydı, FPS ölçümü veya guest performans kanıtı değildir.
+
+| Masaüstü | Uygulama menüsü |
+| --- | --- |
+| ![Masaüstü: native host çıktısı](docs/media/01-desktop.HOST-NOT-VM.png) | ![Menü: native host çıktısı](docs/media/02-applications.HOST-NOT-VM.png) |
+
+| Calm Light | Graphite Pro |
+| --- | --- |
+| ![Açık tema: native host çıktısı](docs/media/04-calm-light.HOST-NOT-VM.png) | ![Koyu tema: native host çıktısı](docs/media/05-graphite.HOST-NOT-VM.png) |
+
+| Quick Settings | Software: bağlı uygulama süreci yok |
+| --- | --- |
+| ![Hızlı ayarlar: native host çıktısı](docs/media/06-quick-settings.HOST-NOT-VM.png) | ![Software bekleme durumu: native host çıktısı](docs/media/07-software-no-peer.HOST-NOT-VM.png) |
+
+## Ayrıntılı özellik rehberi
+
+Pencere/masaüstü işlemleri, Files, terminal, tema/ayarlar, saat/takvim, uygulama ve paket yönetimi, tarayıcı/PDF, ağ, depolama ve güvenlik: [özellikler, kaynak yolları, kısayollar ve kabul sınırları](docs/FEATURES.md). Kaynağın bulunması yeni public guest kabulünün geçtiği anlamına gelmez.
+
+## Açılabilir VM indirilebilir mi?
+
+Eski temiz VM'nin özel ortamda açılış kanıtları var; fakat başlatıcı ve binary kaynak/lisans dağıtımı eksikleri ayrıdır. VM ZIP'i **henüz Release olarak yayımlanmıyor**. [Somut kalan işler](docs/VM_RELEASE.md). GitHub'ın otomatik kaynak ZIP'i kurulabilir işletim sistemi değildir.
 
 ## NovaOS nedir?
 

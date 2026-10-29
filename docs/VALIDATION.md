@@ -12,6 +12,7 @@ Date: 29 October 2026. These results apply to this curated source publication, n
 | Compositor and shell, AArch64 | BUILD PASS | Cross-target objects; not ARM guest boot |
 | Authenticated theme protocol | PASS | Host integration with ASan/UBSan; replay, spoof, backpressure, closed-peer cases |
 | Files directory/filter/sort/bounds | PASS | Host test with ASan/UBSan |
+| Public native media gallery | PASS | Seven CPU-rendered host UI states; not VM/app-process acceptance |
 | Complete public rootfs and guest boot | PENDING | Requires separate image build and acceptance |
 | Real hardware and production readiness | PENDING | Not inferred from source checks |
 
@@ -19,7 +20,7 @@ The first payload audit rejected a synthetic PDF fixture by extension. Its plain
 
 ## Source provenance
 
-The publication derives from the classroom-free R60 clean export. Compared read-only with the latest R62 development tree, **126 of 128 files under `src/` are byte-identical**. The two intentional differences are `src/services/nova_r12_assets.h` (neutral replacement for undocumented image/raster) and `src/terminal/nova_terminal_session.c` (classroom worker integration removed). R62's presentation-only privacy pages are intentionally excluded.
+The initial publication derives from the classroom-free R60 clean export. Compared read-only with the R62 development tree, the initial import had **126 of 128 files under `src/` byte-identical**. Initial differences were `src/services/nova_r12_assets.h` (neutral assets) and `src/terminal/nova_terminal_session.c` (classroom worker integration removed). The media revision additionally sets the existing procedural Graphite wave as the default in `src/services/compositor.c`, at the owner's request. R62's presentation-only privacy pages remain excluded.
 
 Therefore this is a current-core, curated **source snapshot**, not a byte-for-byte R62 VM or a newly accepted clean guest. Historical personal evidence and VM screenshots are not imported into this repository.
 

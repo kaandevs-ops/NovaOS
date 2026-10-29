@@ -18,3 +18,5 @@ jobs:
         run: python3 scripts/audit-public.py
       - name: Build and test native components
         run: bash scripts/check-public.sh
+      - name: Render public native gallery
+        run: bash scripts/render-public-gallery.sh

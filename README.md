@@ -1,4 +1,6 @@
-<p align="center"><img src="docs/media/banner.svg" alt="NovaOS: a native desktop, built on Linux" width="100%"></p>
+<p align="center"><img src="docs/media/banner.png" alt="Kaan Tekin — AI, Robotics and Autonomous Systems" width="100%"></p>
+
+<h1 align="center">NovaOS</h1>
 
 <p align="center"><strong>An independent desktop and userspace project on the Linux kernel.</strong><br>Native C compositor · own shell and service manager · scoped application integration</p>
 
@@ -11,7 +13,37 @@
 
 <p align="center"><a href="README.tr.md">Türkçe</a> · <a href="#the-project">Project</a> · <a href="#explore-the-source">Source</a> · <a href="#quick-start">Build checks</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/ROADMAP.md">Roadmap</a></p>
 
-> **Development source, with explicit boundaries.** This repository is a curated, classroom-free source snapshot. It is not a bootable VM download or a production-ready operating system. The Linux kernel and integrated upstream programs are not authored by NovaOS. The banner above is original identity artwork, not a screenshot.
+> **Development source, with explicit boundaries.** This repository is a curated, classroom-free source snapshot. It is not a bootable VM download or a production-ready operating system. Linux and integrated upstream programs are not authored by NovaOS. The banner is the author's existing profile banner, also used in the Unity repository.
+
+## Screenshots and video
+
+These are **actual outputs from this repository's native C CPU renderer on a Linux host**, at 1600 × 900, using the existing procedural Graphite wave background. They are not VirtualBox screenshots or HTML mockups. This host gallery has no connected application processes; Software deliberately shows a waiting state rather than invented installation results.
+
+[![Native renderer walkthrough: edited sequence of seven frames](docs/media/native-renderer-preview.HOST-NOT-VM.gif)](docs/media/native-renderer-walkthrough.HOST-NOT-VM.mp4)
+
+**[Watch/download the 21-second renderer walkthrough](docs/media/native-renderer-walkthrough.HOST-NOT-VM.mp4)** · [Animated preview](docs/media/native-renderer-preview.HOST-NOT-VM.gif) · [Capture provenance and reproduction](docs/MEDIA.md)
+
+The video is an edited sequence of seven native still frames, held for readability. It is not a continuous interaction recording, FPS benchmark or proof of guest performance.
+
+| Desktop | Application menu |
+| --- | --- |
+| ![Desktop: native host output](docs/media/01-desktop.HOST-NOT-VM.png) | ![Application menu: native host output](docs/media/02-applications.HOST-NOT-VM.png) |
+
+| Calm Light | Graphite Pro |
+| --- | --- |
+| ![Light appearance: native host output](docs/media/04-calm-light.HOST-NOT-VM.png) | ![Dark appearance: native host output](docs/media/05-graphite.HOST-NOT-VM.png) |
+
+| Quick Settings | Software, no application peer |
+| --- | --- |
+| ![Quick Settings: native host output](docs/media/06-quick-settings.HOST-NOT-VM.png) | ![Software waiting state: native host output](docs/media/07-software-no-peer.HOST-NOT-VM.png) |
+
+## Feature guide
+
+Window management, desktop file operations, Files navigation/metadata, terminal processes/input, themes, clock/calendar, application/package lifecycle, browser/PDF compatibility, network, storage, diagnostics and security are documented in the [complete feature/source/status inventory](docs/FEATURES.md). It includes keyboard entry points, the actual local app catalog and unsupported areas. Source implementation is distinguished from host tests and guest acceptance.
+
+## Bootable VM availability
+
+A private clean experimental VM has historical boot evidence, but launcher/runtime/source-attribution issues are separate from this repository. It is **not currently published as a Release**. [Release blockers and acceptance checklist](docs/VM_RELEASE.md). GitHub's automatically generated source ZIP is not an installable OS.
 
 ## The project
 
