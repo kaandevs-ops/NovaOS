@@ -1,0 +1,10 @@
+NovaOS
+Copyright 2026 Kaan Tekin (kaandevs-ops)
+
+Original NovaOS code and documentation are licensed under Apache License 2.0,
+except files carrying another notice. This does not relicense third-party code.
+src/pdf/nova_pdf_worker.c explicitly uses GNU AGPL v3 or later.
+Inter, DejaVu, BusyBox, SQLite, Lua, 2048 and the Tetris web application retain
+their upstream terms. See THIRD_PARTY_NOTICES.md and docs/LICENSING.md.
+Linux and Mozilla Firefox are independent upstream projects, not authored by NovaOS.
+No endorsement by an upstream project is implied.
