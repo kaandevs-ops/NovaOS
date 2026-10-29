@@ -1,0 +1,19 @@
+{
+  "project": "mevdschee/2048.c",
+  "commit": "90343eb209e84fa9687d596f5d5eecfdf7d4df51",
+  "license": "MIT",
+  "files": {
+    "2048.c": {
+      "url": "https://raw.githubusercontent.com/mevdschee/2048.c/90343eb209e84fa9687d596f5d5eecfdf7d4df51/2048.c",
+      "sha256": "90f794c675a696aa10980dd120d1f0503ee4ed33a61fef92c7df8f443f5b18a8"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/mevdschee/2048.c/90343eb209e84fa9687d596f5d5eecfdf7d4df51/LICENSE",
+      "sha256": "593783abd95546a2817d104b2656dd985a979a9e90da895729f211fc844b6402"
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/mevdschee/2048.c/90343eb209e84fa9687d596f5d5eecfdf7d4df51/README.md",
+      "sha256": "bd8cc4d981eefdec443aa54cc4853aca470ca5b51dcd4c647c831dd887d70ff0"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+--- a/2048.c
++++ b/2048.c
+@@ -59,10 +59,10 @@
+ 			// so that they can be modified by the getColors function
+ 			getColors(board[x][y], scheme, &fg, &bg);
+ 			printf("\033[38;5;%u;48;5;%um", fg, bg); // set color
+-			printf("       ");
++			printf("+------");
+ 			printf("\033[m"); // reset all modes
+ 		}
+-		printf("\n");
++		printf("+\n");
+ 		for (x = 0; x < SIZE; x++)
+ 		{
+ 			getColors(board[x][y], scheme, &fg, &bg);
+@@ -70,27 +70,27 @@
+ 			if (board[x][y] != 0)
+ 			{
+ 				uint32_t number = 1 << board[x][y];
+-				uint8_t t = 7 - getDigitCount(number);
+-				printf("%*s%u%*s", t - t / 2, "", number, t / 2, "");
++				uint8_t t = 6 - getDigitCount(number);
++				printf("|%*s%u%*s", t - t / 2, "", number, t / 2, "");
+ 			}
+ 			else
+ 			{
+-				printf("   ·   ");
++				printf("|  .   ");
+ 			}
+ 			printf("\033[m"); // reset all modes
+ 		}
+-		printf("\n");
++		printf("|\n");
+ 		for (x = 0; x < SIZE; x++)
+ 		{
+ 			getColors(board[x][y], scheme, &fg, &bg);
+ 			printf("\033[38;5;%u;48;5;%um", fg, bg); // set color
+-			printf("       ");
++			printf("+------");
+ 			printf("\033[m"); // reset all modes
+ 		}
+-		printf("\n");
++		printf("+\n");
+ 	}
+ 	printf("\n");
+-	printf("        ←,↑,→,↓ or q        \n");
++	printf("     WASD/arrows, q: quit     \n");
+ 	printf("\033[A"); // one line up
+ }
+ 

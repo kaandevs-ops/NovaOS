@@ -1,0 +1,23 @@
+{
+  "id": "web.tetris",
+  "title": "Tetris",
+  "kind": "offline-browser-game",
+  "upstream": "https://github.com/jakesgordon/javascript-tetris",
+  "commit": "e5c0c42f7dac0f3514a55eff656c6e22e95d68ed",
+  "license": "MIT",
+  "entry": "index.html",
+  "network_required": false,
+  "changes": [
+    "Offline NovaOS navigation and controls",
+    "CSP blocks network connections and external resource loads",
+    "Removed host animation FPS display; not a guest performance measurement",
+    "NovaOS palette and navigation"
+  ],
+  "files": {
+    "LICENSE": "31744bd674567634d06949f7bbc581ef148583106751dfbafa362b1a3cea116b",
+    "index.html": "ef7213f04ad9c18d4a621fa89ac8589a35936b5e76036872c77fbaea069e205f",
+    "stats.js": "a58c25488ff7ac0a9868dffd0b521d4e4dbd0473ef1bccab641e10e74b44f701",
+    "texture.jpg": "d3b48e9dc8b9cc92433c4425b96a71bdcbcd7811c6fed67d96865b591b648522",
+    "README.md": "f1ed7e3419a320d1500c737f3464f62db11d2df4ec33ed72c830c1b3c71f05af"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.28.5",
+  "url": "https://casper.mupdf.com/downloads/archive/mupdf-1.28.5-source.tar.gz",
+  "sha256": "98a5c10cda20c3992cdf76ff6b2a1149c32bd79cc796d3f703230b1185b7e934",
+  "hash_reference": "https://cgit.freebsd.org/ports/commit/?id=602c6870f02e89e175ee855bff0e26c1a42b2970",
+  "license": "AGPL-3.0-or-later; inspect upstream COPYING and third-party notices"
+}

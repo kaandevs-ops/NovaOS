@@ -1,0 +1,82 @@
+{
+  "font_url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/InterVariable.ttf",
+  "font_sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf",
+  "generator_pillow": "12.3.0",
+  "glyphs": 110,
+  "scope": "ASCII + Turkish precomposed + middle dot/en dash/ellipsis, not full Unicode/shaping",
+  "faces": [
+    {
+      "role": 0,
+      "scale": 1,
+      "pixels": 14,
+      "weight": 400,
+      "ascent": 14,
+      "line_height": 18,
+      "alpha_bytes": 9073
+    },
+    {
+      "role": 1,
+      "scale": 1,
+      "pixels": 20,
+      "weight": 600,
+      "ascent": 20,
+      "line_height": 25,
+      "alpha_bytes": 18093
+    },
+    {
+      "role": 2,
+      "scale": 1,
+      "pixels": 12,
+      "weight": 500,
+      "ascent": 12,
+      "line_height": 15,
+      "alpha_bytes": 6940
+    },
+    {
+      "role": 3,
+      "scale": 1,
+      "pixels": 13,
+      "weight": 600,
+      "ascent": 13,
+      "line_height": 17,
+      "alpha_bytes": 7745
+    },
+    {
+      "role": 0,
+      "scale": 2,
+      "pixels": 28,
+      "weight": 400,
+      "ascent": 28,
+      "line_height": 35,
+      "alpha_bytes": 35126
+    },
+    {
+      "role": 1,
+      "scale": 2,
+      "pixels": 40,
+      "weight": 600,
+      "ascent": 39,
+      "line_height": 49,
+      "alpha_bytes": 71056
+    },
+    {
+      "role": 2,
+      "scale": 2,
+      "pixels": 24,
+      "weight": 500,
+      "ascent": 24,
+      "line_height": 30,
+      "alpha_bytes": 25070
+    },
+    {
+      "role": 3,
+      "scale": 2,
+      "pixels": 26,
+      "weight": 600,
+      "ascent": 26,
+      "line_height": 33,
+      "alpha_bytes": 31897
+    }
+  ],
+  "header_sha256": "f4826874779b9fd905dbd2e320130fda4cbacab1e69a06d76d1c4f8bbf53cf11"
+}

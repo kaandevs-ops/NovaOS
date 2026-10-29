@@ -1,0 +1,12 @@
+{
+  "id": "web.music",
+  "title": "Nova Music",
+  "kind": "offline-browser-audio-player",
+  "entry": "index.html",
+  "network_required": false,
+  "files": {
+    "LICENSE": "0f55d7691a9600e24fb6926f6559919d767708cc1fa6395e1e9ed3d2d7efbabc",
+    "player.js": "69feb0536b12ed58e4cf2563828502e4e43e981014f7e5b4a446c806008faf30",
+    "index.html": "af0893919e0c9587cf8aed2c0400b117861a1eca8014655459f43fd1a0c954cb"
+  }
+}
