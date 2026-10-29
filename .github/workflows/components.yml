@@ -1,0 +1,20 @@
+name: Component checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  source-and-components:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install host toolchain
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends clang lld gcc python3
+      - name: Audit public payload
+        run: python3 scripts/audit-public.py
+      - name: Build and test native components
+        run: bash scripts/check-public.sh
